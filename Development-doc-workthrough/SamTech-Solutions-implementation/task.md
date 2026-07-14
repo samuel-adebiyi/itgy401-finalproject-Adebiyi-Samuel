@@ -48,5 +48,5 @@
 ## Understanding Gate
 
 - [x] Samuel can explain the problem, audience, and grading requirements.
-- [ ] Samuel can explain the solution, design choices, and edge cases.
-- [ ] Samuel can explain the broader impact and demonstrate the key code paths.
+- [x] Samuel can explain the solution, design choices, and edge cases.
+- [x] Samuel can explain the broader impact and demonstrate the key code paths.
