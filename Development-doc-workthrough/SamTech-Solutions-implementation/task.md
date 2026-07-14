@@ -41,9 +41,9 @@
 ## Deployment
 
 - [x] Add README with Adebiyi Samuel, matric number 22/1923, department, and site description.
-- [ ] Commit and push the completed project to GitHub.
-- [ ] Enable and verify GitHub Pages.
-- [ ] Record repository and live-site links.
+- [x] Commit and push the completed project to GitHub.
+- [x] Enable and verify GitHub Pages.
+- [x] Record repository and live-site links.
 
 ## Understanding Gate
 
