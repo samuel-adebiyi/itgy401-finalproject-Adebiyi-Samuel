@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Request a free project consultation from SamTech Solutions.">
+  <title>Contact | SamTech Solutions</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html" aria-label="SamTech Solutions home"><span class="brand-mark" aria-hidden="true">S</span><span>SamTech<span class="brand-accent">.</span></span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span class="menu-label">Menu</span><span class="menu-icon" aria-hidden="true"></span></button><nav id="primary-navigation" class="primary-nav" aria-label="Primary navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a class="nav-cta" href="contact.html" aria-current="page">Free consultation</a></nav></div></header>
+
+  <main id="main-content">
+    <section class="page-hero contact-hero"><div class="container page-hero-grid"><div><p class="eyebrow"><span></span> Start a conversation</p><h1>Tell us what you’re trying to improve.</h1></div><p class="page-lead">Share the business need, even if the technical solution is not clear yet. That is what the consultation is for.</p></div></section>
+
+    <section class="section contact-section">
+      <div class="container contact-grid">
+        <aside class="contact-info">
+          <p class="eyebrow dark"><span></span> What happens next</p>
+          <h2>A clear first conversation—without pressure.</h2>
+          <ol><li><span>1</span><p>Submit the project details you already know.</p></li><li><span>2</span><p>We clarify the goal, constraints, and useful next step.</p></li><li><span>3</span><p>You receive a recommended scope and sample quotation.</p></li></ol>
+          <div class="contact-card"><p>Prefer direct contact?</p><a href="mailto:samueladebiyi@example.com">samueladebiyi@example.com</a><small>Demonstration email for this student project</small></div>
+        </aside>
+
+        <div class="form-panel">
+          <h2>Request a free consultation</h2>
+          <p>Required fields are marked with <span aria-hidden="true">*</span><span class="sr-only">an asterisk</span>.</p>
+          <form id="consultation-form" novalidate>
+            <div class="form-grid">
+              <div class="field"><label for="full-name">Full name <span aria-hidden="true">*</span></label><input id="full-name" name="fullName" type="text" autocomplete="name" minlength="2" required><small class="field-error" id="full-name-error"></small></div>
+              <div class="field"><label for="email">Email address <span aria-hidden="true">*</span></label><input id="email" name="email" type="email" autocomplete="email" required><small class="field-error" id="email-error"></small></div>
+              <div class="field"><label for="phone">Phone number</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="e.g. 0801 234 5678"><small class="field-error" id="phone-error"></small></div>
+              <div class="field"><label for="organisation">Business or organisation</label><input id="organisation" name="organisation" type="text" autocomplete="organization"><small class="field-error" id="organisation-error"></small></div>
+              <div class="field field-full"><label for="service">Service needed <span aria-hidden="true">*</span></label><select id="service" name="service" required><option value="">Choose a service</option><option value="website-development">Website Development</option><option value="software-solutions">Software Solutions</option><option value="it-consulting">IT Consulting</option><option value="data-reporting">Data &amp; Reporting</option><option value="not-sure">Not sure yet</option></select><small class="field-error" id="service-error"></small></div>
+              <fieldset class="field field-full"><legend>Estimated budget</legend><div class="radio-group"><label><input type="radio" name="budget" value="under-250k"> Under ₦250,000</label><label><input type="radio" name="budget" value="250k-500k"> ₦250,000–₦500,000</label><label><input type="radio" name="budget" value="above-500k"> Above ₦500,000</label><label><input type="radio" name="budget" value="not-sure"> Not sure</label></div></fieldset>
+              <div class="field field-full"><label for="project-details">Project details <span aria-hidden="true">*</span></label><textarea id="project-details" name="projectDetails" rows="6" minlength="20" maxlength="1000" required placeholder="What problem are you trying to solve, and what result would help your organisation?"></textarea><div class="field-meta"><small class="field-error" id="project-details-error"></small><small><span id="message-count">0</span>/1000</small></div></div>
+              <div class="field field-full consent-field"><label><input id="privacy-consent" name="privacyConsent" type="checkbox" required> I understand this is a student demonstration and the form will validate my details without sending or storing them. <span aria-hidden="true">*</span></label><small class="field-error" id="privacy-consent-error"></small></div>
+            </div>
+            <button class="button button-dark submit-button" type="submit">Review consultation request <span aria-hidden="true">↗</span></button>
+            <p class="privacy-note">Privacy note: this static demonstration has no database or form-delivery service. Your information stays in this browser page.</p>
+            <div id="form-status" class="form-status" role="status" aria-live="polite" tabindex="-1"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq-section"><div class="container"><div class="section-heading"><p class="eyebrow dark"><span></span> Common questions</p><h2>Before we begin.</h2></div><div class="faq-grid"><details><summary>Is the consultation really free?</summary><p>Yes. The first discussion is for understanding the need and deciding whether there is a sensible project to scope.</p></details><details><summary>Do I need technical requirements?</summary><p>No. Start with the business problem, the people affected, and the outcome you want.</p></details><details><summary>Are the prices fixed?</summary><p>No. The service table contains sample starting estimates for this student project. A real quotation depends on scope.</p></details><details><summary>Does this form send my information?</summary><p>No. It validates and summarises your request in the browser only. Nothing is transmitted or stored.</p></details></div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-grid"><div><a class="brand footer-brand" href="index.html"><span class="brand-mark" aria-hidden="true">S</span><span>SamTech<span class="brand-accent">.</span></span></a><p>Practical technology for growing businesses.</p></div><div><h2 class="footer-title">Navigate</h2><a href="about.html">About</a><a href="services.html">Services</a><a href="contact.html">Contact</a></div><div><h2 class="footer-title">Student</h2><p>Adebiyi Samuel</p><p>22/1923</p><p>Computer Information Systems</p></div></div><div class="container footer-bottom"><p>&copy; <span data-current-year>2026</span> SamTech Solutions.</p><p>ITGY401 Final Project</p></div></footer>
+  </body>
+</html>
